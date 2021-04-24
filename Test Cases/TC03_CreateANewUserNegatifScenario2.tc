@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CreateANewUserNegatifScenario2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec65dfdc-6d82-415b-bc2d-2cd80d6df10f</testCaseGuid>
+</TestCaseEntity>

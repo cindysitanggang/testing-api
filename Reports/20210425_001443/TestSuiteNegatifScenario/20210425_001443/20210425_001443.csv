@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteNegatifScenario,,,,2021-04-25 00:14:54,2021-04-25 00:15:06,"12,370s",ERROR
+,,,,,,,
+Test Cases/TC02_CreateNewUserNegatifScenario1,,,,2021-04-25 00:14:56,2021-04-25 00:15:02,"5,499s",ERROR
+"response = sendRequest(findTestObject(""CreateNewUserNegatifScenario1""))",,,,2021-04-25 00:14:57,2021-04-25 00:15:01,"4,603s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:15:01,2021-04-25 00:15:01,"0,020s",PASSED
+"verifyElementPropertyValue(response, ""email"", ""jhon.lenon@reqres.in"")",,,,2021-04-25 00:15:01,2021-04-25 00:15:02,"0,094s",PASSED
+"verifyElementPropertyValue("""", ""first_name"", ""Jhon 12345"")",,,,2021-04-25 00:15:02,2021-04-25 00:15:02,"0,003s",PASSED
+,,,,,,,
+Test Cases/TC03_CreateANewUserNegatifScenario2,,,,2021-04-25 00:15:02,2021-04-25 00:15:04,"2,093s",PASSED
+"response = sendRequest(findTestObject(""CreateNewUserNegatifScenario2""))",,,,2021-04-25 00:15:02,2021-04-25 00:15:04,"1,402s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:15:04,2021-04-25 00:15:04,"0,000s",PASSED
+"verifyElementPropertyValue(response, ""first_name"", ""Paul"")",,,,2021-04-25 00:15:04,2021-04-25 00:15:04,"0,024s",PASSED
+"verifyElementPropertyValue(response, ""last_name"", ""Mccartney"")",,,,2021-04-25 00:15:04,2021-04-25 00:15:04,"0,044s",PASSED
+"verifyElementPropertyValue(response, ""avatar"", ""https://reqres.in/img/faces/2-image.jpg"")",,,,2021-04-25 00:15:04,2021-04-25 00:15:04,"0,041s",PASSED
+,,,,,,,
+Test Cases/TC04_CreateANewUserNegatifScenario3,,,,2021-04-25 00:15:04,2021-04-25 00:15:06,"2,581s",PASSED
+"response = sendRequest(findTestObject(""CreateNewUserNegatifScenario3""))",,,,2021-04-25 00:15:04,2021-04-25 00:15:06,"1,903s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:15:06,2021-04-25 00:15:06,"0,000s",PASSED
+"verifyElementPropertyValue(response, ""email"", ""ringostar.com"")",,,,2021-04-25 00:15:06,2021-04-25 00:15:06,"0,022s",PASSED
+"verifyElementPropertyValue(response, ""first_name"", ""Ringooooooooooooooooooooooooooooooooooooooooooooooooo"")",,,,2021-04-25 00:15:06,2021-04-25 00:15:06,"0,026s",PASSED
+"verifyElementPropertyValue(response, ""last_name"", ""Star{}"")",,,,2021-04-25 00:15:06,2021-04-25 00:15:06,"0,016s",PASSED
+"verifyElementPropertyValue(response, ""avatar"", ""avatar ringo"")",,,,2021-04-25 00:15:06,2021-04-25 00:15:06,"0,026s",PASSED

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteNegatifScenario" time="9.461" tests="3" failures="1" skips="0" errors="0">
+   <testsuite name="TestSuiteNegatifScenario" tests="3" failures="1" errors="0" time="9.461" skips="0" timestamp="2021-04-25 00:27:57" hostname="Cindy S - 192.168.56.1" id="Test Suites/TestSuiteNegatifScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cindy S\\git\\testing-api-mobile\\Reports\\20210425_002749\\TestSuiteNegatifScenario\\20210425_002749"/>
+         <property name="logFiles" value="C:\\Users\\Cindy S\\git\\testing-api-mobile\\Reports\\20210425_002749\\TestSuiteNegatifScenario\\20210425_002749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cindy S - 192.168.56.1"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+      </properties>
+      <testcase name="Test Cases/TC02_CreateNewUserNegatifScenario1" time="3.503" classname="Test Cases/TC02_CreateNewUserNegatifScenario1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC02_CreateNewUserNegatifScenario1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)
+"/>
+         <system-out><![CDATA[2021-04-25 00:27:59 - [TEST_CASE][FAILED] - Test Cases/TC02_CreateNewUserNegatifScenario1: Test Cases/TC02_CreateNewUserNegatifScenario1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)
+
+
+2021-04-25 00:28:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("CreateNewUserNegatifScenario1")): Send request successfully
+
+2021-04-25 00:28:02 - [MESSAGE][INFO] - HAR: C:\Users\Cindy S\git\testing-api-mobile\Reports\20210425_002749\TestSuiteNegatifScenario\20210425_002749\requests\main\0.har
+
+2021-04-25 00:28:02 - [MESSAGE][PASSED] - Send request successfully
+
+2021-04-25 00:28:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2021-04-25 00:28:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-04-25 00:28:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "jhon.lenon@reqres.in"): Verify element property value successfully
+
+2021-04-25 00:28:02 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "Jhon 12345"): Verify element property value successfully
+
+2021-04-25 00:28:02 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:02 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "last_name", "Jhon 12345"): Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)
+)
+
+2021-04-25 00:28:02 - [MESSAGE][FAILED] - Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+
+2021-04-25 00:28:02 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2021-04-25 00:27:59 - [TEST_CASE][FAILED] - Test Cases/TC02_CreateNewUserNegatifScenario1: Test Cases/TC02_CreateNewUserNegatifScenario1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_CreateANewUserNegatifScenario2" time="1.866" classname="Test Cases/TC03_CreateANewUserNegatifScenario2" status="PASSED">
+         <system-out><![CDATA[2021-04-25 00:28:02 - [TEST_CASE][PASSED] - Test Cases/TC03_CreateANewUserNegatifScenario2: Test Cases/TC03_CreateANewUserNegatifScenario2
+
+2021-04-25 00:28:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("CreateNewUserNegatifScenario2")): Send request successfully
+
+2021-04-25 00:28:04 - [MESSAGE][INFO] - HAR: C:\Users\Cindy S\git\testing-api-mobile\Reports\20210425_002749\TestSuiteNegatifScenario\20210425_002749\requests\main\1.har
+
+2021-04-25 00:28:04 - [MESSAGE][PASSED] - Send request successfully
+
+2021-04-25 00:28:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2021-04-25 00:28:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-04-25 00:28:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "Paul"): Verify element property value successfully
+
+2021-04-25 00:28:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "last_name", "Mccartney"): Verify element property value successfully
+
+2021-04-25 00:28:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "avatar", "https://reqres.in/img/faces/2-image.jpg"): Verify element property value successfully
+
+2021-04-25 00:28:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_CreateANewUserNegatifScenario3" time="1.926" classname="Test Cases/TC04_CreateANewUserNegatifScenario3" status="PASSED">
+         <system-out><![CDATA[2021-04-25 00:28:04 - [TEST_CASE][PASSED] - Test Cases/TC04_CreateANewUserNegatifScenario3: Test Cases/TC04_CreateANewUserNegatifScenario3
+
+2021-04-25 00:28:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("CreateNewUserNegatifScenario3")): Send request successfully
+
+2021-04-25 00:28:06 - [MESSAGE][INFO] - HAR: C:\Users\Cindy S\git\testing-api-mobile\Reports\20210425_002749\TestSuiteNegatifScenario\20210425_002749\requests\main\2.har
+
+2021-04-25 00:28:06 - [MESSAGE][PASSED] - Send request successfully
+
+2021-04-25 00:28:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2021-04-25 00:28:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-04-25 00:28:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "ringostar.com"): Verify element property value successfully
+
+2021-04-25 00:28:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "Ringooooooooooooooooooooooooooooooooooooooooooooooooo"): Verify element property value successfully
+
+2021-04-25 00:28:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "last_name", "Star{}"): Verify element property value successfully
+
+2021-04-25 00:28:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:28:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "avatar", "avatar ringo"): Verify element property value successfully
+
+2021-04-25 00:28:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-25 00:27:57 - [TEST_SUITE][FAILED] - TestSuiteNegatifScenario: Test Cases/TC02_CreateNewUserNegatifScenario1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-04-25 00:27:57 - [TEST_SUITE][FAILED] - TestSuiteNegatifScenario: Test Cases/TC02_CreateNewUserNegatifScenario1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Jhon 12345' is not equal with actual property value 'Lenon !@#$%'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC02_CreateNewUserNegatifScenario1.run(TC02_CreateNewUserNegatifScenario1:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619285269140.run(TempTestSuite1619285269140.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

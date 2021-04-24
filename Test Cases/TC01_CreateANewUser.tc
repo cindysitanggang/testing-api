@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CreateANewUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bae6e87d-267b-4429-988a-a229b1c5f677</testCaseGuid>
+</TestCaseEntity>

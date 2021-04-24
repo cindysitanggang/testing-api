@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteNegatifScenario,,,,2021-04-25 00:31:21,2021-04-25 00:31:31,"9,094s",PASSED
+,,,,,,,
+Test Cases/TC02_CreateNewUserNegatifScenario1,,,,2021-04-25 00:31:23,2021-04-25 00:31:27,"3,452s",PASSED
+"response = sendRequest(findTestObject(""CreateNewUserNegatifScenario1""))",,,,2021-04-25 00:31:24,2021-04-25 00:31:26,"2,583s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:31:26,2021-04-25 00:31:26,"0,024s",PASSED
+"verifyElementPropertyValue(response, ""email"", ""jhon.lenon@reqres.in"")",,,,2021-04-25 00:31:26,2021-04-25 00:31:26,"0,097s",PASSED
+"verifyElementPropertyValue(response, ""first_name"", ""Jhon 12345"")",,,,2021-04-25 00:31:26,2021-04-25 00:31:26,"0,021s",PASSED
+"verifyElementPropertyValue(response, ""last_name"", ""Lenon !@#$%"")",,,,2021-04-25 00:31:26,2021-04-25 00:31:26,"0,040s",PASSED
+"verifyElementPropertyValue(response, ""avatar"", ""https://reqres.in/img/faces/1-image.jpg"")",,,,2021-04-25 00:31:26,2021-04-25 00:31:27,"0,021s",PASSED
+,,,,,,,
+Test Cases/TC03_CreateANewUserNegatifScenario2,,,,2021-04-25 00:31:27,2021-04-25 00:31:29,"2,154s",PASSED
+"response = sendRequest(findTestObject(""CreateNewUserNegatifScenario2""))",,,,2021-04-25 00:31:27,2021-04-25 00:31:29,"1,436s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:31:29,2021-04-25 00:31:29,"0,000s",PASSED
+"verifyElementPropertyValue(response, ""first_name"", ""Paul"")",,,,2021-04-25 00:31:29,2021-04-25 00:31:29,"0,026s",PASSED
+"verifyElementPropertyValue(response, ""last_name"", ""Mccartney"")",,,,2021-04-25 00:31:29,2021-04-25 00:31:29,"0,030s",PASSED
+"verifyElementPropertyValue(response, ""avatar"", ""https://reqres.in/img/faces/2-image.jpg"")",,,,2021-04-25 00:31:29,2021-04-25 00:31:29,"0,021s",PASSED
+,,,,,,,
+Test Cases/TC04_CreateANewUserNegatifScenario3,,,,2021-04-25 00:31:29,2021-04-25 00:31:31,"1,849s",PASSED
+"response = sendRequest(findTestObject(""CreateNewUserNegatifScenario3""))",,,,2021-04-25 00:31:29,2021-04-25 00:31:30,"1,271s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:31:30,2021-04-25 00:31:30,"0,000s",PASSED
+"verifyElementPropertyValue(response, ""email"", ""ringostar.com"")",,,,2021-04-25 00:31:30,2021-04-25 00:31:30,"0,029s",PASSED
+"verifyElementPropertyValue(response, ""first_name"", ""Ringooooooooooooooooooooooooooooooooooooooooooooooooo"")",,,,2021-04-25 00:31:30,2021-04-25 00:31:30,"0,025s",PASSED
+"verifyElementPropertyValue(response, ""last_name"", ""Star{}"")",,,,2021-04-25 00:31:30,2021-04-25 00:31:31,"0,023s",PASSED
+"verifyElementPropertyValue(response, ""avatar"", ""avatar ringo"")",,,,2021-04-25 00:31:31,2021-04-25 00:31:31,"0,027s",PASSED

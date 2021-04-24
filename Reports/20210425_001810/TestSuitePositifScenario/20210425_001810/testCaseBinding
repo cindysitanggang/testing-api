@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/TC01_CreateANewUser","testCaseId":"Test Cases/TC01_CreateANewUser"}
+{"testCaseName":"Test Cases/TC05_DeleteUser","testCaseId":"Test Cases/TC05_DeleteUser"}
+{"testCaseName":"Test Cases/TC06_GetAllUserPaged","testCaseId":"Test Cases/TC06_GetAllUserPaged"}
+{"testCaseName":"Test Cases/TC07_UpdateUser","testCaseId":"Test Cases/TC07_UpdateUser"}
+{"testCaseName":"Test Cases/TC08_ViewDetailSingleUser","testCaseId":"Test Cases/TC08_ViewDetailSingleUser"}

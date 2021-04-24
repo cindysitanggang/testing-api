@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteNegatifScenario" time="9.444" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="TestSuiteNegatifScenario" tests="3" failures="0" errors="0" time="9.444" skips="0" timestamp="2021-04-25 00:31:21" hostname="Cindy S - 192.168.56.1" id="Test Suites/TestSuiteNegatifScenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Cindy S\\git\\testing-api-mobile\\Reports\\20210425_003114\\TestSuiteNegatifScenario\\20210425_003114"/>
+         <property name="logFiles" value="C:\\Users\\Cindy S\\git\\testing-api-mobile\\Reports\\20210425_003114\\TestSuiteNegatifScenario\\20210425_003114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cindy S - 192.168.56.1"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+      </properties>
+      <testcase name="Test Cases/TC02_CreateNewUserNegatifScenario1" time="3.452" classname="Test Cases/TC02_CreateNewUserNegatifScenario1" status="PASSED">
+         <system-out><![CDATA[2021-04-25 00:31:23 - [TEST_CASE][PASSED] - Test Cases/TC02_CreateNewUserNegatifScenario1: Test Cases/TC02_CreateNewUserNegatifScenario1
+
+2021-04-25 00:31:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("CreateNewUserNegatifScenario1")): Send request successfully
+
+2021-04-25 00:31:26 - [MESSAGE][INFO] - HAR: C:\Users\Cindy S\git\testing-api-mobile\Reports\20210425_003114\TestSuiteNegatifScenario\20210425_003114\requests\main\0.har
+
+2021-04-25 00:31:26 - [MESSAGE][PASSED] - Send request successfully
+
+2021-04-25 00:31:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2021-04-25 00:31:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-04-25 00:31:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "jhon.lenon@reqres.in"): Verify element property value successfully
+
+2021-04-25 00:31:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "Jhon 12345"): Verify element property value successfully
+
+2021-04-25 00:31:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "last_name", "Lenon !@#$%"): Verify element property value successfully
+
+2021-04-25 00:31:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "avatar", "https://reqres.in/img/faces/1-image.jpg"): Verify element property value successfully
+
+2021-04-25 00:31:27 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_CreateANewUserNegatifScenario2" time="2.154" classname="Test Cases/TC03_CreateANewUserNegatifScenario2" status="PASSED">
+         <system-out><![CDATA[2021-04-25 00:31:27 - [TEST_CASE][PASSED] - Test Cases/TC03_CreateANewUserNegatifScenario2: Test Cases/TC03_CreateANewUserNegatifScenario2
+
+2021-04-25 00:31:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("CreateNewUserNegatifScenario2")): Send request successfully
+
+2021-04-25 00:31:29 - [MESSAGE][INFO] - HAR: C:\Users\Cindy S\git\testing-api-mobile\Reports\20210425_003114\TestSuiteNegatifScenario\20210425_003114\requests\main\1.har
+
+2021-04-25 00:31:29 - [MESSAGE][PASSED] - Send request successfully
+
+2021-04-25 00:31:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2021-04-25 00:31:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-04-25 00:31:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "Paul"): Verify element property value successfully
+
+2021-04-25 00:31:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "last_name", "Mccartney"): Verify element property value successfully
+
+2021-04-25 00:31:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "avatar", "https://reqres.in/img/faces/2-image.jpg"): Verify element property value successfully
+
+2021-04-25 00:31:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_CreateANewUserNegatifScenario3" time="1.849" classname="Test Cases/TC04_CreateANewUserNegatifScenario3" status="PASSED">
+         <system-out><![CDATA[2021-04-25 00:31:29 - [TEST_CASE][PASSED] - Test Cases/TC04_CreateANewUserNegatifScenario3: Test Cases/TC04_CreateANewUserNegatifScenario3
+
+2021-04-25 00:31:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("CreateNewUserNegatifScenario3")): Send request successfully
+
+2021-04-25 00:31:30 - [MESSAGE][INFO] - HAR: C:\Users\Cindy S\git\testing-api-mobile\Reports\20210425_003114\TestSuiteNegatifScenario\20210425_003114\requests\main\2.har
+
+2021-04-25 00:31:30 - [MESSAGE][PASSED] - Send request successfully
+
+2021-04-25 00:31:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2021-04-25 00:31:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-04-25 00:31:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "ringostar.com"): Verify element property value successfully
+
+2021-04-25 00:31:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "first_name", "Ringooooooooooooooooooooooooooooooooooooooooooooooooo"): Verify element property value successfully
+
+2021-04-25 00:31:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "last_name", "Star{}"): Verify element property value successfully
+
+2021-04-25 00:31:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2021-04-25 00:31:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "avatar", "avatar ringo"): Verify element property value successfully
+
+2021-04-25 00:31:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-25 00:31:21 - [TEST_SUITE][PASSED] - TestSuiteNegatifScenario: Test Cases/TC04_CreateANewUserNegatifScenario3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

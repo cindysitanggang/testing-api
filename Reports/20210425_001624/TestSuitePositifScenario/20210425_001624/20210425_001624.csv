@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuitePositifScenario,,,,2021-04-25 00:16:32,2021-04-25 00:16:43,"10,830s",ERROR
+,,,,,,,
+Test Cases/TC01_CreateANewUser,,,,2021-04-25 00:16:34,2021-04-25 00:16:37,"3,007s",ERROR
+"sendRequest(findTestObject(""CreateANewUser""))",,,,2021-04-25 00:16:35,2021-04-25 00:16:37,"2,327s",PASSED
+"verifyResponseStatusCode(response, 201)",,,,2021-04-25 00:16:37,2021-04-25 00:16:37,"0,003s",PASSED
+,,,,,,,
+Test Cases/TC05_DeleteUser,,,,2021-04-25 00:16:37,2021-04-25 00:16:38,"1,489s",PASSED
+"response = sendRequest(findTestObject(""DeleteUser""))",,,,2021-04-25 00:16:37,2021-04-25 00:16:38,"1,046s",PASSED
+"verifyResponseStatusCode(response, 204)",,,,2021-04-25 00:16:38,2021-04-25 00:16:38,"0,014s",PASSED
+,,,,,,,
+Test Cases/TC06_GetAllUserPaged,,,,2021-04-25 00:16:38,2021-04-25 00:16:40,"1,360s",PASSED
+"response = sendRequest(findTestObject(""GetAllUserPaged""))",,,,2021-04-25 00:16:39,2021-04-25 00:16:39,"0,590s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2021-04-25 00:16:39,2021-04-25 00:16:39,"0,003s",PASSED
+"verifyElementPropertyValue(response, ""page"", ""2"")",,,,2021-04-25 00:16:39,2021-04-25 00:16:40,"0,082s",PASSED
+"verifyElementPropertyValue(response, ""data[0].id"", ""7"")",,,,2021-04-25 00:16:40,2021-04-25 00:16:40,"0,035s",PASSED
+"verifyElementPropertyValue(response, ""data[1].id"", ""8"")",,,,2021-04-25 00:16:40,2021-04-25 00:16:40,"0,029s",PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""9"")",,,,2021-04-25 00:16:40,2021-04-25 00:16:40,"0,024s",PASSED
+"verifyElementPropertyValue(response, ""data[3].id"", ""10"")",,,,2021-04-25 00:16:40,2021-04-25 00:16:40,"0,043s",PASSED
+"verifyElementPropertyValue(response, ""data[4].id"", ""11"")",,,,2021-04-25 00:16:40,2021-04-25 00:16:40,"0,032s",PASSED
+"verifyElementPropertyValue(response, ""data[5].id"", ""12"")",,,,2021-04-25 00:16:40,2021-04-25 00:16:40,"0,023s",PASSED
+,,,,,,,
+Test Cases/TC07_UpdateUser,,,,2021-04-25 00:16:40,2021-04-25 00:16:41,"1,674s",FAILED
+"response = sendRequest(findTestObject(""UpdateUser""))",,,,2021-04-25 00:16:40,2021-04-25 00:16:41,"1,047s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2021-04-25 00:16:41,2021-04-25 00:16:41,"0,004s",PASSED
+"verifyElementPropertyValue(response, ""email"", ""janet.potter@reqres.in"")",,,,2021-04-25 00:16:41,2021-04-25 00:16:41,"0,033s",PASSED
+"verifyElementPropertyValue(response, ""first_name"", ""Janet"")",,,,2021-04-25 00:16:41,2021-04-25 00:16:41,"0,026s",PASSED
+"verifyElementPropertyValue(response, ""last_name"", ""Potter"")",,,,2021-04-25 00:16:41,2021-04-25 00:16:41,"0,044s",FAILED
+,,,,,,,
+Test Cases/TC08_ViewDetailSingleUser,,,,2021-04-25 00:16:41,2021-04-25 00:16:43,"1,687s",PASSED
+"response = sendRequest(findTestObject(""ViewDetailSingleUser""))",,,,2021-04-25 00:16:42,2021-04-25 00:16:43,"1,034s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2021-04-25 00:16:43,2021-04-25 00:16:43,"0,000s",PASSED
+"verifyElementPropertyValue(response, ""data.id"", ""2"")",,,,2021-04-25 00:16:43,2021-04-25 00:16:43,"0,030s",PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""janet.weaver@reqres.in"")",,,,2021-04-25 00:16:43,2021-04-25 00:16:43,"0,019s",PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,,,2021-04-25 00:16:43,2021-04-25 00:16:43,"0,026s",PASSED
+"verifyElementPropertyValue(response, ""data.last_name"", ""Weaver"")",,,,2021-04-25 00:16:43,2021-04-25 00:16:43,"0,015s",PASSED
+"verifyElementPropertyValue(response, ""data.avatar"", ""https://reqres.in/img/faces/2-image.jpg"")",,,,2021-04-25 00:16:43,2021-04-25 00:16:43,"0,031s",PASSED
